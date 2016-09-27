@@ -17,6 +17,13 @@ namespace RobotSimulator
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+
+            RobotI monRobot = new Robot(168, 206, 59, 0, 0);
+
+            monRobot.initRobot();
+            monRobot.setParamRobot();
+            Form1 fenetre = new Form1();
+            System.Windows.Forms.MessageBox.Show("Paramètres du robot : "+monRobot.paramRobot);
         }
     }
 }

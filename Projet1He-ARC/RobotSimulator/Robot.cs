@@ -11,140 +11,80 @@ namespace RobotSimulator
 
         public bool init
         {
-            get
-            {
-                return init;
-            }
-
-            set
-            {
-                init = value;
-            }
+            get; set;
         }
 
         public int longueurBrasA
         {
-            get
-            {
-                return longueurBrasA;
-            }
-
-            set
-            {
-                longueurBrasA = value;
-            }
+            get;set;
         }
 
         public int longueurBrasB
         {
-            get
-            {
-                return longueurBrasB;
-            }
-
-            set
-            {
-                longueurBrasB = value;
-            }
+            get;set;
         }
 
         public bool penActive
         {
-            get
-            {
-                return penActive;
-            }
+            get;set;
         }
 
         public string pos
         {
-            get
-            {
-                return pos;
-            }
-
-            set
-            {
-                pos = value;
-            }
+            get;set;
         }
 
         public string paramPen
         {
-            get
-            {
-                return paramPen;
-            }
-
-            set
-            {
-                paramPen = value;
-            }
+            get;set;
         }
 
         public string paramRobot
         {
-            get
-            {
-                return paramRobot;
-            }
-
-            set
-            {
-                paramRobot = value;
-            }
+            get;set;
         }
 
         public int vitesse
         {
-            get
-            {
-                return vitesse;
-            }
-
-            set
-            {
-                vitesse = value;
-            }
+            get;set;
         }
 
         public int rotationA
         {
-            get
-            {
-                return rotationA;
-            }
-
-            set
-            {
-                rotationA = value;
-            }
+            get;set;
         }
 
         public int rotationB
         {
-            get
-            {
-                return rotationB;
-            }
-
-            set
-            {
-                rotationB = value;
-            }
+            get;set;
         }
 
-        public Robot(int longueurBrasA, int longueurBrasB, int vitesse, int rotationA, int rotationB)
+        public Robot(int _longueurBrasA, int _longueurBrasB, int _vitesse, int _rotationA, int _rotationB)
         {
-            this.longueurBrasA = longueurBrasA;
-            this.longueurBrasA = longueurBrasB;
-            this.pos = "G1 X-374 Y0<0x0A>";
-            this.paramRobot = "M5 A"+rotationA+" B"+rotationB+" M"+longueurBrasA+" N"+longueurBrasB+" D"+vitesse +"<0x0A>";
+            longueurBrasA = _longueurBrasA;
+            longueurBrasB = _longueurBrasB;
+            pos = "G1 X-374 Y0<0x0A>";
+            vitesse = _vitesse;
+            rotationA = _rotationA;
+            rotationB = _rotationB;
+        }
+
+        public Robot()
+        {
         }
 
         void RobotI.setParamRobot()
         {
             this.paramRobot = "M5 A" + rotationA + " B" + rotationB + " M" + longueurBrasA + " N" + longueurBrasB + " D" + vitesse + "<0x0A>";
+        }
+
+        void RobotI.initRobot ()
+        {
+            //envoyer "M10<0x0A> au robot
+            if (true) //TODO
+                this.init = true;
+            else
+                this.init = false;
         }
     }
 }

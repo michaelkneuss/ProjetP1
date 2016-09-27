@@ -70,5 +70,7 @@ namespace RobotSimulator
         }
 
         void setParamRobot();
+
+        void initRobot();
     }
 }

@@ -3,12 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-// OPENCV //
-using Emgu.CV;
-using Emgu.CV.UI;
-using Emgu.CV.Structure;
 
-namespace OpenCV
+namespace Projet1HeARC
 {
     static class Program
     {
@@ -18,11 +14,7 @@ namespace OpenCV
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-            
-            
+            Robot robot = new Robot;
         }
     }
 }
