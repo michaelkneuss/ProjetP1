@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DCC66980-0C02-49E9-A0B4-73AD2641AE3B}</ProjectGuid>
+    <ProjectGuid>{56BDFE0D-8E28-4F28-A649-31BEC5585AD2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BluetoothModule</RootNamespace>
-    <AssemblyName>BluetoothModule</AssemblyName>
+    <RootNamespace>SynchronousSocketClient</RootNamespace>
+    <AssemblyName>SynchronousSocketClient</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SocketClient.cs" />
+    <Compile Include="SynchronousSocketClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TEST")]
+[assembly: AssemblyTitle("AsynchronousSocketClient")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TEST")]
+[assembly: AssemblyProduct("AsynchronousSocketClient")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("42d6767c-f5b0-4665-bfb4-b1477bbd5641")]
+[assembly: Guid("266bfe60-04e1-4982-bdd0-37c4234632d7")]
 
 // Version information for an assembly consists of the following four values:
 //

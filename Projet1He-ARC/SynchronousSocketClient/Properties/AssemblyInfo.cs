@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("BluetoothModule")]
+[assembly: AssemblyTitle("SynchronousSocketClient")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BluetoothModule")]
+[assembly: AssemblyProduct("SynchronousSocketClient")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("dcc66980-0c02-49e9-a0b4-73ad2641ae3b")]
+[assembly: Guid("56bdfe0d-8e28-4f28-a649-31bec5585ad2")]
 
 // Version information for an assembly consists of the following four values:
 //
