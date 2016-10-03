@@ -33,7 +33,8 @@ public class SynchronousSocketClient
                     sender.RemoteEndPoint.ToString());
 
                 // Encode the data string into a byte array.
-                byte[] msg = Encoding.ASCII.GetBytes("This is a test<EOF>");
+                String message = Console.ReadLine();
+                byte[] msg = Encoding.ASCII.GetBytes(message + "<EOF>");
 
                 // Send the data through the socket.
                 int bytesSent = sender.Send(msg);
