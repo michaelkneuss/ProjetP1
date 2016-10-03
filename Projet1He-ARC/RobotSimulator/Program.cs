@@ -23,7 +23,8 @@ namespace RobotSimulator
             monRobot.initRobot();
             monRobot.setParamRobot();
             //Form1 fenetre = new Form1();
-            MessageBox.Show("Paramètres du robot : "+monRobot.paramRobot);
+           Console.WriteLine("Paramètres du robot : "+monRobot.paramRobot);
+           Console.ReadLine();
         }
     }
 }

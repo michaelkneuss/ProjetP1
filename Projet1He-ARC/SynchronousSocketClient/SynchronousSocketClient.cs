@@ -70,6 +70,7 @@ public class SynchronousSocketClient
     public static int Main(String[] args)
     {
         StartClient();
+        Console.ReadLine();
         return 0;
     }
 }
