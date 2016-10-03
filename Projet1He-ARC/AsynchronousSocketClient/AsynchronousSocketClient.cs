@@ -150,6 +150,7 @@ public class AsynchronousClient
         }
         catch (Exception e)
         {
+            //salut
             Console.WriteLine(e.ToString());
         }
     }
